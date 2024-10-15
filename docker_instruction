@@ -1,0 +1,8 @@
+1- Avoir docker install sur votre machine, le demarrer et etre connecter avec votre compte docker
+2- exécuter la commande : docker build -t assistant_recherche . // pour construire votre image docker
+3- exécuter la commande : docker run -p 8501:8501 assistant_recherche // pour demarrer votre contenaire docker
+4- aller sur votre application docker et ouvrir l'url de votre application
+
+Autres indication
+-Pour arreter le contenaire : docker stop nom_contenaire
+-Pour redemarer votre contenaire : docker restart nom_contenaire
