@@ -2,7 +2,8 @@ import chromadb
 import streamlit as st
 from chromadb.utils import embedding_functions
 
-from assistant import get_research_assistant, topics_listes
+from assistant import *
+
 
 # Définir la fonction d'embedding par défaut
 embedding_function = embedding_functions.DefaultEmbeddingFunction()

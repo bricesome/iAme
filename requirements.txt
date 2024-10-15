@@ -1,0 +1,4 @@
+streamlit==1.26.0
+chromadb==0.3.22
+python-dotenv==1.0.0
+phidata
